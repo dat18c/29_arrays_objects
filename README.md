@@ -12,7 +12,7 @@ implementering af associationer i klasser - one-to-one
 
 ## Øvelse
 
-### Øvelser fra bogen p 354 og frem
+### Øvelser fra bogen p 548 og frem
 
 Lav en metode, der tager et array og en værdi. Den skal returnere første placering af værdien i arrayet. Hvis værdien ikke findes i arrayet skal metoden returnere -1.
 

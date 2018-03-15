@@ -18,21 +18,21 @@ Lav en metode, der tager et array og en værdi. Den skal returnere første place
 
 Lav en metode, der tager et array og en værdi. Den skal returnere sidste placering af værdien i arrayet. Hvis værdien ikke findes i arrayet skal metoden returnere -1.
 
-### Bankøvelse
+### Skoleøvelse
 
-Lav banken med klasserne kunder og konti
+Lav Skole med klasserne Klasse og Student
 
-Brug et array til at styre kunder
+Brug et array til at styre Klasse
 
-Lav constructors, getters og setters
-Lav addKonto og removeKonto metoder på Kunde, så en konto kan tilknyttes en kunde 
+Lav constructors
+Lav addStudent og removeStudent metoder på Klasse, så en Student kan tilknyttes en Klasse 
 
-Lav en søgemetode i forhold til kunder
+Lav en søgemetode i forhold til Klasserne efter en klasse og navnet på en Student
 
-### Bankøvelse version 2
+### Skoleøvelse version 2
 
-Lav et array af Konto i Kunde, så en kunde kan have flere konti
+Lav et array af Student i Klasse, så en klasse kan have flere students
 
-Lav addKonto og removeKonto metoder til at tilføje og fjerne Konto
+Lav addStudent og removeStudent metoder til at tilføje og fjerne Student
 
-Lav print metode, der for Kunde udskriver alle Konto til en status
+Lav print metode, der for Kunde udskriver alle Student for en Klasse

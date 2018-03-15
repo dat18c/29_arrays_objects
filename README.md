@@ -8,6 +8,8 @@ arrays af klasser
 
 metodekald med klasser
 
+implementering af associationer i klasser - one-to-one
+
 ## Øvelse
 
 ### Øvelser fra bogen p 354 og frem

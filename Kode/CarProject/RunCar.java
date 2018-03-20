@@ -15,6 +15,14 @@ public class RunCar{
       Car minBil = new Car("Ferrari", "Testarossa", motor, mitDaek);
       //udskriv bil og motor
       minBil.print();
+      
+      //skift motor
+      //ny motor
+      Engine elmotor = new Engine("Tesla", 0, 250);
+      //setter på car og set ny motor
+      minBil.setEngine(elmotor);
+      
+      minBil.print();
    
    }
 }

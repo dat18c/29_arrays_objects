@@ -15,6 +15,15 @@ public class Car{
       this.daek = daek;
    }
    
+   //set method
+   public void setEngine(Engine nyMotor){
+      this.motor = nyMotor;
+   }
+   
+   public void setTires(Tire[] daek){
+      this.daek = daek;
+   }
+   
    //print metode
    public void print(){
       System.out.println("Bil:");

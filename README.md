@@ -1,16 +1,16 @@
-# 24_arrays_objects
+# 29_arrays_objects
 
 ## agenda
 
-opsamling på min, max avg-øvelsen
+Arrays af klasser
 
-arrays af klasser
+Metodekald med klasser
 
-metodekald med klasser
+Implementering af associationer i klasser
+* one-to-one
+* one-to-many
 
-implementering af associationer i klasser - one-to-one
-
-## Øvelse
+## Øvelser
 
 ### Øvelser fra bogen p 548 og frem
 
@@ -25,7 +25,7 @@ Lav Skole med klasserne Klasse og Student
 Brug et array til at styre Klasse
 
 Lav constructors
-Lav addStudent og removeStudent metoder på Klasse, så en Student kan tilknyttes en Klasse 
+Lav addStudent og removeStudent metoder på Klasse, så en Student kan tilknyttes en Klasse
 
 Lav en søgemetode i forhold til Klasserne efter en klasse og navnet på en Student
 

@@ -1,28 +1,16 @@
 public class RunCar{
 
    public static void main(String[] args){
-      //lav motor
-      Engine motor = new Engine("Ferrari", 6000, 355);
-      //lav dæk
-      //Tire mitDaek = new Tire("Pirrelli", 38);
-      Tire[] mitDaek = new Tire[5];
-      for (int i=0; i<mitDaek.length; i++){
-         mitDaek[i] = new Tire("Michelin", 65);
-      }
-      
-      //lav bil
-      //Car minBil = new Car("Ferrari", "Testarossa", "Ferrari", 6000, 355);
-      Car minBil = new Car("Ferrari", "Testarossa", motor, mitDaek);
+      final int ANTAL_DAEK = 5;
+      //lav motor - match klassediagram
+      //lav daek - match klassediagram
+            
+      //lav biler med constructor
       //udskriv bil og motor
-      minBil.print();
       
+      //sammenlign biler
+
       //skift motor
-      //ny motor
-      Engine elmotor = new Engine("Tesla", 0, 250);
-      //setter på car og set ny motor
-      minBil.setEngine(elmotor);
-      
-      minBil.print();
-   
+      //skift daek  
    }
 }

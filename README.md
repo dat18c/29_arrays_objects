@@ -1,6 +1,6 @@
 # 29_arrays_objects
 
-## agenda
+## Agenda
 
 Implementering af associationer i klasser
 * one-to-one - en attribut af type, der refereres til

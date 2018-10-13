@@ -1,14 +1,13 @@
 # 29_arrays_objects
 
-## agenda
-
-Arrays af klasser
-
-Metodekald med klasser
+## Agenda
 
 Implementering af associationer i klasser
-* one-to-one
-* one-to-many
+* one-to-one - en attribut af type, der refereres til
+* one-to-many - et attribut-array af typen, der refereres til
+![Car%Project](CarProject.png "Car Project med multipliciteter")
+
+Engine skal implementeres som en Engine-attribut på Car, mens Tie skal implementeres som et array med Tire i Car.
 
 ## Øvelser
 
@@ -20,19 +19,12 @@ Lav en metode, der tager et array og en værdi. Den skal returnere sidste placer
 
 ### Skoleøvelse
 
-Lav Skole med klasserne Klasse og Student
+Brug et array i Skole til at styre Student
 
-Brug et array til at styre Klasse
+Lav en metode, der tilføjer en Student til arrayet i Skole
 
-Lav constructors
-Lav addStudent og removeStudent metoder på Klasse, så en Student kan tilknyttes en Klasse
+Lave en metode, der fjerner en Student fra arrayet i Skole
 
-Lav en søgemetode i forhold til Klasserne efter en klasse og navnet på en Student
+Brug en taellervariabel til at holde styr på, hvor mange pladser i arrayet, der er brugt
 
-### Skoleøvelse version 2
-
-Lav et array af Student i Klasse, så en klasse kan have flere students
-
-Lav addStudent og removeStudent metoder til at tilføje og fjerne Student
-
-Lav print metode, der for Kunde udskriver alle Student for en Klasse
+Lav en søgemetode der giver studerende ud fra navnet på en Student

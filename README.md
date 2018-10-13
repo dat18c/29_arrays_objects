@@ -9,6 +9,7 @@ Metodekald med klasser
 Implementering af associationer i klasser
 * one-to-one
 * one-to-many
+![Car%Project](CarProject.png "Car Project med multipliciteter")
 
 ## Øvelser
 

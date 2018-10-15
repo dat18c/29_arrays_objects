@@ -47,6 +47,7 @@ public class Engine{
    }
    
    public String toString(){
+      //byg tekststreng til pæn udskrift
       String s = "Motor";
       s += "\tMærke:" + brand;
       s += "\tCubik: " + cubik;
@@ -56,14 +57,17 @@ public class Engine{
 
    public boolean equals(Engine eng)
    {
+      // sammenlign alle attributer - brug equals til at sammenligne strenge
       if (this.getBrand().equals(eng.getBrand())
          && this.getCubik() == eng.getCubik()
          && this.getHk() == eng.getHk())
       {
+         //de er ens
          return true;
       }
       else
       {
+         //de er forskellige
          return false;
       }
    }

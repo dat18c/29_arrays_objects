@@ -1,4 +1,5 @@
-public class Tire{
+public class Tire
+{
    private String brand;
    private int size;
 

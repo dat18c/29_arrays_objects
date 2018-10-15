@@ -27,9 +27,20 @@ public class RunCar{
       }
       minAndenBil.setDaek(mineAndreDaek);
       
+      Engine minTredieMotor = new Engine("Ford", 1200, 95);
+      Tire[] mineEkstraDaek = new Tire[ANTAL_DAEK];
+      for (int i=0; i<ANTAL_DAEK-1; i++)
+      {
+         mineEkstraDaek[i] = new Tire("Michelin", 55);
+      }
+      mineEkstraDaek[ANTAL_DAEK-1] = new Tire("NoName", 55);
+      
+      Car minTredieBil = new Car("Ford", "Fiesta", minTredieMotor, mineEkstraDaek);
+      
       //udskriv bil og motor
       System.out.println(minBil);
       System.out.println(minAndenBil);
+      System.out.println(minTredieBil);
       
       //sammenlign biler
 
